@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix="%")
 async def on_ready():
     print("discord-stealth-mention-bot is ready")
     print("Client: " + bot.user.name)
-    print("ID: " + bot.user.id)
+    print("ID: " + str(bot.user.id))
 
 
 
