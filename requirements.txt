@@ -1,3 +1,2 @@
 discord.py
-opencv-python-headless==3.4.5.20
 asyncio
