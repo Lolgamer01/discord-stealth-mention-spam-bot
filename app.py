@@ -23,7 +23,7 @@ async def on_message(message):
         print("started spamming on: " + message.server.name)
         await bot.delete_message(message)
         while True:
-            sent = await bot.send_message(message.channel, "@&592565423812378624")
+            sent = await bot.send_message(message.channel, "<@&592565423812378624>")
             await bot.delete_message(sent)
             # await asyncio.sleep(0.1)
 
